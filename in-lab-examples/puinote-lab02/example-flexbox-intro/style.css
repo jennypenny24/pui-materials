@@ -2,6 +2,41 @@ body {
   font-family: sans-serif;
 }
 
+.big_container{
+  width:500px;
+  background-color: lightgray;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items:flex-end;
+}
+
+.small_container{
+  display:flex;
+  flex-direction:row;
+}
+
+.big_container {
+  width: 500px;
+  background-color: lightgray;
+}
+
+.item_1{
+  order:5;
+}
+
+.item_2{
+  flex-grow: 8;
+}
+
+.item_4{
+  flex-basis: 200px;
+}
+
+.item_2{
+  flex: 0 0 200px;
+}
+
 .row {
   width: 500px;
   background-color: lightgray;
